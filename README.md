@@ -1,2 +1,1 @@
-This Repo only contains Html codes(Fromtend).Through this repo Im showing that i've good skils in Html.
-In future i'll develop my frontend skills and create awsome websites!...
+This Repo only contains Html codes(Fromtend).Through this repo Im developing my frontend skills
