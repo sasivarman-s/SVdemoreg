@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="working example of a and input tag and others">
+    <title>Example of tags</title>
+    <style>
+        *{
+            cursor: pointer;
+        }
+        .intro{
+            text-align: center;
+        }
+        .footer{
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 100px;
+    }
+    .dname,.dmail,.dhub,.dinsta{
+        display: inline-block;
+        font-style: italic;
+    }
+    .dmail,.dinsta{
+        padding-left: 1000px;
+        margin-top: 20px;
+    }
+    .footer{
+        margin-top: 300px;
+    }
+    .fills{
+        padding-left: 500px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        border: 5px solid black; 
+        border-radius: 100px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <h2 class="remember">Remember: you've came this page using "a" tag which navigated you from 1st website</h2>
+        <p class="para">see below, there are some detail filling option are shown. this is the input tag.At the mother tongue input you can see some options to fill that's the working of option tag. submit and reset buttons are example of button tag. Try it!!</p>
+        <hr>
+    </div>
+    <div class="fills">
+        <form>
+            <table>
+                <tr><td><label>Name: </label></td><td><input name="name" type="text"></td></tr>
+                <tr><td><label>Age: </label></td><td><input name="age" type="text"></td></tr>
+                <tr><td><label>Cell: </label></td><td><input name="cell" type="text"></td></tr>
+                <tr><td><label>Email address: </label></td><td><input name="email" type="email"></td></tr>
+                <tr><td><label>Gender:</label></td><td><input name="Gender" value="male" type="radio">Male</td><td><input name="Gender" value="female" type="radio">Female</td></tr>
+                <tr><td><label>Mother Tongue: </label></td><td><select>
+                    <option>Tamil</option>
+                    <option>Telugu</option>
+                    <option>Kannadam</option>
+                    <option>Hindi</option>
+                    <option>Marati</option>
+                    <option>Malayalam</option>
+                    <option>Other</option>
+                 </select></td></tr>
+                <tr><td><label>Address: </label></td><td><input name="address" type="text"></td></tr> 
+                <tr><td>Upload resume: </td><td><input type="file"></td></tr>
+                <tr><td><input type="submit"></td><td><input type="reset"></td></tr>
+            </table>
+        </form>
+    </div>
+    <div class="footer">
+        <h3 class="dname">Developer:sasivarman</h3>
+        <h3 class="dmail">Email:sasivarman18prvt@gmail.com</h3><br>
+        <h3 class="dhub">GitHub:sasivarman-s</h3>
+        <h3 class="dinsta">Instagram:sv_chan_100</h3>
+    </div>
+</body>
+</html>
